@@ -1,1 +1,1 @@
-lowk just an open source script im making for fun (some parts might and WILL be chatgpt generated)
+UR ON DOXBIN IM PRETTY SUIRE I BROKE THE LAW NEVER SAID I WILL STOP UR ON DOXBINNN UR ON DOXBINNNNNN UR ONNNN DOXBINN UH THIS IS THE END OF THE SONG GOODBYE :33
