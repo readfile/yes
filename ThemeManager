@@ -1,7 +1,7 @@
 
 local ThemeManager = {} do
 	ThemeManager.Folder = 'LinoriaLibSettings'
-	-- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
+	if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
 
 	ThemeManager.Library = nil
 	
