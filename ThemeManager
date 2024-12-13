@@ -283,7 +283,7 @@ ThemeManager.BuiltInThemes = {
     },
     ['Electric Ghost'] = { 
         69, 
-        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"494949","AccentColor":"00ffff","BackgroundColor":"5f5f5f5f","OutlineColor":"004b4b"}') 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"494949","AccentColor":"00ebf2","BackgroundColor":"5d5d5d","OutlineColor":"004b4b"}') 
     },
     ['Nebula Night'] = { 
         70, 
