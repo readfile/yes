@@ -1,4 +1,4 @@
-local httpService = game:GetService('HttpService')
+
 local ThemeManager = {} do
 	ThemeManager.Folder = 'LinoriaLibSettings'
 	-- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
@@ -6,6 +6,7 @@ local ThemeManager = {} do
 	ThemeManager.Library = nil
 	
 
+local httpService = game:GetService("HttpService")
 
 ThemeManager.BuiltInThemes = {
     ['Default'] = { 
@@ -67,8 +68,49 @@ ThemeManager.BuiltInThemes = {
     ['Oceanic'] = { 
         15, 
         httpService:JSONDecode('{"FontColor":"d8dee9","MainColor":"1b2b34","AccentColor":"6699cc","BackgroundColor":"263238","OutlineColor":"343d46"}') 
+    },
+    ['Neon Night'] = { 
+        16, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"141414","AccentColor":"e800e8","BackgroundColor":"1c1c1c","OutlineColor":"3a003a"}') 
+    },
+    ['Pastel'] = { 
+        17, 
+        httpService:JSONDecode('{"FontColor":"000000","MainColor":"ffc8dd","AccentColor":"ffafcc","BackgroundColor":"ffcbf2","OutlineColor":"e0aaff"}') 
+    },
+    ['Ice Blue'] = { 
+        18, 
+        httpService:JSONDecode('{"FontColor":"000000","MainColor":"d8f3dc","AccentColor":"52b788","BackgroundColor":"40916c","OutlineColor":"2d6a4f"}') 
+    },
+    ['Forest Green'] = { 
+        19, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"014421","AccentColor":"1f6f44","BackgroundColor":"004b23","OutlineColor":"002f18"}') 
+    },
+    ['Royal Purple'] = { 
+        20, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3b185f","AccentColor":"9d4edd","BackgroundColor":"7b2cbf","OutlineColor":"5a189a"}') 
+    },
+    ['Amber Sunset'] = { 
+        21, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"ffba08","AccentColor":"faa307","BackgroundColor":"faa307","OutlineColor":"e85d04"}') 
+    },
+    ['Midnight'] = { 
+        22, 
+        httpService:JSONDecode('{"FontColor":"d9d9d9","MainColor":"0b0c10","AccentColor":"45a29e","BackgroundColor":"1f2833","OutlineColor":"c5c6c7"}') 
+    },
+    ['Skyline'] = { 
+        23, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0f4c75","AccentColor":"3282b8","BackgroundColor":"1b262c","OutlineColor":"bbe1fa"}') 
+    },
+    ['Galaxy'] = { 
+        24, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0d1b2a","AccentColor":"1b263b","BackgroundColor":"415a77","OutlineColor":"778da9"}') 
+    },
+    ['Flamingo'] = { 
+        25, 
+        httpService:JSONDecode('{"FontColor":"000000","MainColor":"ffb6c1","AccentColor":"f08080","BackgroundColor":"fa8072","OutlineColor":"e9967a"}') 
     }
 }
+
 
 
 	function ThemeManager:ApplyTheme(theme)
