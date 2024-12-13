@@ -249,6 +249,59 @@ ThemeManager.BuiltInThemes = {
     60, 
     httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2ecc71","AccentColor":"27ae60","BackgroundColor":"1e6e43","OutlineColor":"145236"}') 
 },
+    ['Glitch Rush'] = { 
+        53, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"121212","AccentColor":"00ffcc","BackgroundColor":"1c1c1c","OutlineColor":"00cc99"}') 
+    },
+    ['Neon Fury'] = { 
+        54, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1f1f1f","AccentColor":"ff0000","BackgroundColor":"111111","OutlineColor":"ff3333"}') 
+    },
+    ['Cyberpunk Dream'] = { 
+        55, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0e0e0e","AccentColor":"7f00ff","BackgroundColor":"161616","OutlineColor":"6c00b3"}') 
+    },
+    ['Dark Web'] = { 
+        56, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0a0a0a","AccentColor":"00ff00","BackgroundColor":"121212","OutlineColor":"007700"}') 
+    },
+    ['Phantom Blaze'] = { 
+        57, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"181818","AccentColor":"e60000","BackgroundColor":"1a1a1a","OutlineColor":"660000"}') 
+    },
+    ['Electric Pulse'] = { 
+        58, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"171717","AccentColor":"00d4ff","BackgroundColor":"0a0a0a","OutlineColor":"00aacc"}') 
+    },
+    ['Nightshade'] = { 
+        59, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"131313","AccentColor":"9900cc","BackgroundColor":"0d0d0d","OutlineColor":"660066"}') 
+    },
+    ['Vortex'] = { 
+        60, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"ff00ff","BackgroundColor":"1e1e1e","OutlineColor":"d100d1"}') 
+    },
+    ['Electric Ghost'] = { 
+        61, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1b1b1b","AccentColor":"00ffff","BackgroundColor":"121212","OutlineColor":"008f8f"}') 
+    },
+    ['Nebula Night'] = { 
+        62, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"202020","AccentColor":"7f00ff","BackgroundColor":"1b1b1b","OutlineColor":"4d00b3"}') 
+    },
+    ['Neon Abyss'] = { 
+        63, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0f0f0f","AccentColor":"ff00cc","BackgroundColor":"101010","OutlineColor":"990066"}') 
+    },
+    ['Code Red'] = { 
+        64, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1d1d1d","AccentColor":"ff3333","BackgroundColor":"151515","OutlineColor":"990000"}') 
+    },
+    ['Hyperdrive'] = { 
+        65, 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"171717","AccentColor":"ff00ff","BackgroundColor":"101010","OutlineColor":"8f008f"}') 
+    },
+
 
 }
 
