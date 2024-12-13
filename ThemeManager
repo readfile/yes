@@ -8,7 +8,7 @@ local ThemeManager = {} do
 
 local httpService = game:GetService("HttpService")
 
-ThemeManager.BuiltInThemes = {
+hemeManager.BuiltInThemes = {
     ['Default'] = { 
         1, 
         httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}') 
@@ -108,8 +108,69 @@ ThemeManager.BuiltInThemes = {
     ['Flamingo'] = { 
         25, 
         httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"ffb6c1","AccentColor":"f08080","BackgroundColor":"fa8072","OutlineColor":"e9967a"}') 
+    },
+    ['Muted Pink'] = {
+        26,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"ff8a8a","AccentColor":"ff5a5a","BackgroundColor":"e04848","OutlineColor":"a33636"}')
+    },
+    ['Slate Gray'] = {
+        27,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2c3e50","AccentColor":"34495e","BackgroundColor":"22303f","OutlineColor":"192229"}')
+    },
+    ['Emerald'] = {
+        28,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2ecc71","AccentColor":"27ae60","BackgroundColor":"1e6e43","OutlineColor":"145236"}')
+    },
+    ['Burnt Orange'] = {
+        29,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"e67e22","AccentColor":"d35400","BackgroundColor":"a53d00","OutlineColor":"742700"}')
+    },
+    ['Muted Violet'] = {
+        30,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"8e44ad","AccentColor":"71368a","BackgroundColor":"562766","OutlineColor":"40184b"}')
+    },
+    ['Frost Blue'] = {
+        31,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3498db","AccentColor":"2980b9","BackgroundColor":"1e5c84","OutlineColor":"134065"}')
+    },
+    ['Deep Sea'] = {
+        32,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"34495e","AccentColor":"2c3e50","BackgroundColor":"1f2731","OutlineColor":"11171c"}')
+    },
+    ['Cyan Dream'] = {
+        33,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1abc9c","AccentColor":"16a085","BackgroundColor":"0f5c4c","OutlineColor":"07312a"}')
+    },
+    ['Sunset Purple'] = {
+        34,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"9b59b6","AccentColor":"8e44ad","BackgroundColor":"682e82","OutlineColor":"4d2260"}')
+    },
+    ['Wine Red'] = {
+        35,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"c0392b","AccentColor":"e74c3c","BackgroundColor":"99231b","OutlineColor":"701a14"}')
+    },
+    ['Pine Green'] = {
+        36,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2c6b46","AccentColor":"3e8f5c","BackgroundColor":"20422a","OutlineColor":"122415"}')
+    },
+    ['Indigo Storm'] = {
+        37,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3c4f76","AccentColor":"273c57","BackgroundColor":"1e283b","OutlineColor":"121a24"}')
+    },
+    ['Soft Peach'] = {
+        38,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"f8b195","AccentColor":"f67280","BackgroundColor":"f06a65","OutlineColor":"cc5c52"}')
+    },
+    ['Steel Blue'] = {
+        39,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"4682b4","AccentColor":"5a9ec8","BackgroundColor":"3c6b96","OutlineColor":"25415e"}')
+    },
+    ['Muted Gold'] = {
+        40,
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"d4af37","AccentColor":"c6a23d","BackgroundColor":"a6852e","OutlineColor":"6b5921"}')
     }
 }
+
 
 
 
