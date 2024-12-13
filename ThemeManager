@@ -5,6 +5,8 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	
+
+
 ThemeManager.BuiltInThemes = {
     ['Default'] = { 
         1, 
@@ -45,8 +47,29 @@ ThemeManager.BuiltInThemes = {
     ['Quartz'] = { 
         10, 
         httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"232330","AccentColor":"426e87","BackgroundColor":"1d1b26","OutlineColor":"27232f"}') 
+    },
+    ['Solarized Dark'] = { 
+        11, 
+        httpService:JSONDecode('{"FontColor":"839496","MainColor":"002b36","AccentColor":"268bd2","BackgroundColor":"073642","OutlineColor":"586e75"}') 
+    },
+    ['Monokai'] = { 
+        12, 
+        httpService:JSONDecode('{"FontColor":"f8f8f2","MainColor":"272822","AccentColor":"f92672","BackgroundColor":"1e1f1c","OutlineColor":"49483e"}') 
+    },
+    ['Dracula'] = { 
+        13, 
+        httpService:JSONDecode('{"FontColor":"f8f8f2","MainColor":"282a36","AccentColor":"ff79c6","BackgroundColor":"44475a","OutlineColor":"6272a4"}') 
+    },
+    ['Nord'] = { 
+        14, 
+        httpService:JSONDecode('{"FontColor":"d8dee9","MainColor":"2e3440","AccentColor":"88c0d0","BackgroundColor":"3b4252","OutlineColor":"4c566a"}') 
+    },
+    ['Oceanic'] = { 
+        15, 
+        httpService:JSONDecode('{"FontColor":"d8dee9","MainColor":"1b2b34","AccentColor":"6699cc","BackgroundColor":"263238","OutlineColor":"343d46"}') 
     }
 }
+
 
 	function ThemeManager:ApplyTheme(theme)
 		local customThemeData = self:GetCustomTheme(theme)
