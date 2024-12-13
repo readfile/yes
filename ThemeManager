@@ -249,13 +249,13 @@ ThemeManager.BuiltInThemes = {
     60, 
     httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2ecc71","AccentColor":"27ae60","BackgroundColor":"1e6e43","OutlineColor":"145236"}') 
 },
-    ['Glitch Rush'] = { 
+['Glitch Rush'] = { 
         53, 
         httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"121212","AccentColor":"00ffcc","BackgroundColor":"1c1c1c","OutlineColor":"00cc99"}') 
     },
     ['Neon Fury'] = { 
         54, 
-        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1f1f1f","AccentColor":"ff0000","BackgroundColor":"111111","OutlineColor":"ff3333"}') 
+       httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1f1f1f","AccentColor":"ff0000","BackgroundColor":"111111","OutlineColor":"ff3333"}') 
     },
     ['Cyberpunk Dream'] = { 
         55, 
