@@ -271,7 +271,7 @@ ThemeManager.BuiltInThemes = {
     },
     ['Electric Pulse'] = { 
         66, 
-        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"171717","AccentColor":"00d4ff","BackgroundColor":"0a0a0a","OutlineColor":"00aacc"}') 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"00d4ff","AccentColor":"00d4ff","BackgroundColor":"001523","OutlineColor":"00aacc"}') 
     },
     ['Nightshade'] = { 
         67, 
