@@ -300,9 +300,7 @@ ThemeManager.BuiltInThemes = {
     ['Hyperdrive'] = { 
         65, 
         httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"171717","AccentColor":"ff00ff","BackgroundColor":"101010","OutlineColor":"8f008f"}') 
-    },
-
-
+    }
 }
 
 
