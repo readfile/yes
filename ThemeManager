@@ -300,11 +300,12 @@ ThemeManager.BuiltInThemes = {
     ['Hyperdrive'] = { 
         73, 
         httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"171717","AccentColor":"ff00ff","BackgroundColor":"101010","OutlineColor":"520052"}') 
-    }.
-   ['Dyno'] = { 
-        74, 
-        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"181a20","AccentColor":"01e6ce","BackgroundColor":"0e1015","OutlineColor":"3e4654"}') 
-    }
+    },
+ ['Dyno'] = { 
+    74, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"181a20","AccentColor":"01e6ce","BackgroundColor":"0e1015","OutlineColor":"3e4654"}')
+}
+
 }
 
 
