@@ -281,9 +281,9 @@ ThemeManager.BuiltInThemes = {
         68, 
         httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"ff00ff","BackgroundColor":"1e1e1e","OutlineColor":"50004d"}') 
     },
-    ['Electric Ghost'] = { 
-        69, 
-        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"494949","AccentColor":"00ebf2","BackgroundColor":"5d5d5d","OutlineColor":"004b4b"}') 
+   ['Electric Ghost'] = { 
+    69, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"494949","AccentColor":"00ebf2","BackgroundColor":"5d5d5d","OutlineColor":"004b4b"}')
     },
     ['Nebula Night'] = { 
         70, 
