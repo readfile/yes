@@ -1,4 +1,4 @@
-
+ 
 local ThemeManager = {} do
 	ThemeManager.Folder = 'LinoriaLibSettings'
 	if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
@@ -168,7 +168,88 @@ ThemeManager.BuiltInThemes = {
     ['Muted Gold'] = {
         40,
         httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"d4af37","AccentColor":"c6a23d","BackgroundColor":"a6852e","OutlineColor":"6b5921"}')
-    }
+    },
+['Mystic Night'] = { 
+    41, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1b1b2f","AccentColor":"a85a5a","BackgroundColor":"10101c","OutlineColor":"44475a"}') 
+},
+['Radiant Sunset'] = { 
+    42, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"ff5733","AccentColor":"c70039","BackgroundColor":"900c3f","OutlineColor":"581845"}') 
+},
+['Celestial Sky'] = { 
+    43, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"001f3d","AccentColor":"3b8dbd","BackgroundColor":"013e6a","OutlineColor":"1f5e78"}') 
+},
+['Electric Dream'] = { 
+    44, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"8e44ad","AccentColor":"c56ecf","BackgroundColor":"4b2d5e","OutlineColor":"6a3d74"}') 
+},
+['Lunar Eclipse'] = { 
+    45, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"ff6347","BackgroundColor":"2a2a2a","OutlineColor":"5c5c5c"}') 
+},
+['Vivid Coral'] = { 
+    46, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"ff6f61","AccentColor":"ff3f34","BackgroundColor":"d43f3a","OutlineColor":"9f2e1d"}') 
+},
+['Frozen Blaze'] = { 
+    47, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2c3e50","AccentColor":"e74c3c","BackgroundColor":"34495e","OutlineColor":"5f6f7e"}') 
+},
+['Neon Pulse'] = { 
+    48, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"18e1e8","AccentColor":"ff61a6","BackgroundColor":"2b4d53","OutlineColor":"5f8393"}') 
+},
+['Stealth Mode'] = { 
+    49, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"181818","AccentColor":"00d2ff","BackgroundColor":"101010","OutlineColor":"383838"}') 
+},
+['Deep Purple'] = { 
+    50, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"4b0082","AccentColor":"8a2be2","BackgroundColor":"2e0854","OutlineColor":"3c1f59"}') 
+},
+['Sunset Wave'] = { 
+    51, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"ff9a8b","AccentColor":"ff7b54","BackgroundColor":"f0c27b","OutlineColor":"f06b4c"}') 
+},
+['Hacker Mode'] = { 
+    52, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"000000","AccentColor":"00ff00","BackgroundColor":"0f0f0f","OutlineColor":"003300"}') 
+},
+['Pixel Pop'] = { 
+    53, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"ff007f","AccentColor":"ff4b00","BackgroundColor":"ff55cc","OutlineColor":"ff005b"}') 
+},
+['Golden Aura'] = { 
+    54, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"f39c12","AccentColor":"e67e22","BackgroundColor":"f1c40f","OutlineColor":"d35400"}') 
+},
+['Electric Lime'] = { 
+    55, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"b0ff00","AccentColor":"80ff00","BackgroundColor":"558000","OutlineColor":"4a8000"}') 
+},
+['Aqua Breeze'] = { 
+    56, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"4a90e2","AccentColor":"00bcd4","BackgroundColor":"007aa7","OutlineColor":"6c8e93"}') 
+},
+['Zen Garden'] = { 
+    57, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"00695c","AccentColor":"004d40","BackgroundColor":"00332e","OutlineColor":"005249"}') 
+},
+['Mystic Lavender'] = { 
+    58, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"8e44ad","AccentColor":"9b59b6","BackgroundColor":"9b59b6","OutlineColor":"7a4d7d"}') 
+},
+['Steampunk Gold'] = { 
+    59, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"d4af37","AccentColor":"e67e22","BackgroundColor":"c27c0e","OutlineColor":"a6781a"}') 
+},
+['Aurora Green'] = { 
+    60, 
+    httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2ecc71","AccentColor":"27ae60","BackgroundColor":"1e6e43","OutlineColor":"145236"}') 
+},
+
 }
 
 
