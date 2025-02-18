@@ -11,7 +11,7 @@ local httpService = game:GetService("HttpService")
 ThemeManager.BuiltInThemes = {
     ['Default'] = { 
         1, 
-        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}') 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2e3440","AccentColor":"88c0d0","BackgroundColor":"3b4252","OutlineColor":"4c566a"}') 
     },
     ['Blaze'] = { 
         2, 
@@ -61,9 +61,9 @@ ThemeManager.BuiltInThemes = {
         13, 
         httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"282a36","AccentColor":"ff79c6","BackgroundColor":"44475a","OutlineColor":"6272a4"}') 
     },
-    ['Nord'] = { 
+    ['Random'] = { 
         14, 
-        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"2e3440","AccentColor":"88c0d0","BackgroundColor":"3b4252","OutlineColor":"4c566a"}') 
+        httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"299a54","AccentColor":"39c5d0","BackgroundColor":"3r4254","OutlineColor":"4c566a"}') 
     },
     ['Oceanic'] = { 
         15, 
